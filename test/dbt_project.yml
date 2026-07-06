@@ -16,4 +16,4 @@ snapshot-paths:
   - snapshots
 models:
   test:
-    +materialized: view
+    +materialized: table
