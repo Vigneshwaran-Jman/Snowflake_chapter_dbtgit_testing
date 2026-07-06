@@ -1,0 +1,10 @@
+test:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: SNOWFLAKE_LEARNING_WH
+      database: USER$VIGNESHWARAN
+      schema: PUBLIC
+      threads: 8
